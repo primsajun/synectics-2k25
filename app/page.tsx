@@ -53,11 +53,11 @@ export default function Home() {
               key={i}
               className="absolute rounded-full bg-blue-500/10 backdrop-blur-sm"
               style={{
-                width: `${Math.random() * 300 + 50}px`,
-                height: `${Math.random() * 300 + 50}px`,
-                top: `${Math.random() * 100}%`,
-                left: `${Math.random() * 100}%`,
-                transform: `translate(-50%, -50%) translateX(${(mousePosition.x - window.innerWidth / 2) / 50}px) translateY(${(mousePosition.y - window.innerHeight / 2) / 50}px)`,
+                width: `${(i * 137.3) % 300 + 50}px`, // Deterministic based on index
+                height: `${(i * 89.7) % 300 + 50}px`,
+                top: `${(i * 23.1) % 100}%`,
+                left: `${(i * 47.3) % 100}%`,
+                transform: `translate(-50%, -50%) translateX(${(mousePosition.x - (typeof window !== 'undefined' ? window.innerWidth : 0) / 2) / 50}px) translateY(${(mousePosition.y - (typeof window !== 'undefined' ? window.innerHeight : 0) / 2) / 50}px)`,
                 transition: "transform 0.3s ease-out",
               }}
             />
