@@ -141,8 +141,8 @@ export default function Home() {
 
               <div className="flex justify-center">
                 <motion.a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeLLPiLsuHBPzJxFFmB1gqzhE7nFCJxKMrCErSWNHTHNW2Kgg/viewform"
-                  target="https://docs.google.com/forms/d/e/1FAIpQLSeLLPiLsuHBPzJxFFmB1gqzhE7nFCJxKMrCErSWNHTHNW2Kgg/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSenk1OkUDUXA_RUEaq1dvipqp6X9fksugIC1WLG6eV9a3Qhjg/viewform"
+                  target="https://docs.google.com/forms/d/e/1FAIpQLSenk1OkUDUXA_RUEaq1dvipqp6X9fksugIC1WLG6eV9a3Qhjg/viewform"
                   className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg shadow-blue-500/30 transition-all inline-block"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -500,7 +500,7 @@ export default function Home() {
                 asChild
                 className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-6 px-8 rounded-full shadow-lg shadow-blue-500/30 transition-all text-lg"
               >
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLLPiLsuHBPzJxFFmB1gqzhE7nFCJxKMrCErSWNHTHNW2Kgg/viewform" target="_blank" rel="noreferrer">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSenk1OkUDUXA_RUEaq1dvipqp6X9fksugIC1WLG6eV9a3Qhjg/viewform" target="_blank" rel="noreferrer">
                   Register Now
                 </a>
               </Button>
