@@ -594,7 +594,7 @@ export default function Home() {
                         <span>
                           Mr.R.Santha Kumar:{" "}
                           <a href="tel:+1234567890" className="text-green-300 hover:underline">
-                            +91 9087586411
+                            9087586411
                           </a>
                         </span>
                       </li>
@@ -603,7 +603,7 @@ export default function Home() {
                         <span>
                           Mr.S.Ajin:{" "}
                           <a href="tel:12345678" className="text-green-300 hover:underline">
-                            +91 8072768346
+                            8072768346
                           </a>
                         </span>
                       </li>
@@ -612,7 +612,7 @@ export default function Home() {
                         <span>
                           Mr.X.Jervin Revaldo:{" "}
                           <a href="tel:123456789" className="text-green-300 hover:underline">
-                            +91 85255010198
+                            85255010198
                           </a>
                         </span>
                       </li>
