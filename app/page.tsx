@@ -481,7 +481,7 @@ export default function Home() {
             >
          <div className="w-40 h-40 bg-white p-2 rounded-lg shadow-lg flex items-center justify-center">
                     <Image
-                      src="/images/Screenshot 2025-03-27 193805.png"
+                      src="/images/qr.jpg"
                       alt="Payment QR Code"
                       width={180}
                       height={180}
