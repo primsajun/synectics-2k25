@@ -70,7 +70,7 @@ export default function Home() {
  <div className="flex justify-center mb-6">
                 <div className="w-full bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20 overflow-hidden">
                   <Image
-                    src="/images/output-onlinepngtools.png"
+                    src="/images/qr.jpg"
                     alt="SYNECTICS 2k25 Logo"
                     width={620}
                     height={120}
